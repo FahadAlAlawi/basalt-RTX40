@@ -12,7 +12,7 @@
 
 Basalt is a local inference engine for large language models: **Qwen3.8-Flash-Next**, **DeepSeek-V4.1-Flash**, **Qwen3.8-27B**, **Hy4-flash**, **Inkling 2 Mini** and **ERNIE-5.5-Flash**. It runs
 on an NVIDIA Blackwell GPU (sm_120) - or, in this fork, an Ada GPU (sm_89, RTX 40-series) - on Linux and Windows x64, and on the DGX Spark (GB10, Arm64), with what does not fit in VRAM
-(the experts of a mixture-of-experts model) in system RAM, and optionally on more GPUs. The server speaks the OpenAI and Anthropic APIs. Website: [basalt.jgulfo.com](https://basalt.jgulfo.com).
+(the experts of a mixture-of-experts model) in system RAM, and optionally on more GPUs. The server speaks the OpenAI and Anthropic APIs.
 
 <p align="center"><img src="docs/img/frontend-rtx40.png" alt="The Basalt web UI while a reply streams on an RTX 40-series GPU: 101 tok/s decode and 4,496 tok/s prefill with 74.5% of the model's experts resident in system RAM" width="720"></p>
 <p align="center"><em>Screenshot of running <a href="https://huggingface.co/unsloth">Qwen3.8-Flash-Next-UD-IQ3_XXS</a> from Unsloth (81.6 GB) on a 16 GB RTX 4080.</em></p>
