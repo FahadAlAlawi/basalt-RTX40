@@ -17,14 +17,6 @@ on an NVIDIA Blackwell GPU (sm_120) - or, in this fork, an Ada GPU (sm_89, RTX 4
 <p align="center"><img src="docs/img/frontend-rtx40.png" alt="The Basalt web UI while a reply streams on an RTX 40-series GPU: 101 tok/s decode and 4,496 tok/s prefill with 74.5% of the model's experts resident in system RAM" width="720"></p>
 <p align="center"><em>Screenshot of running <a href="https://huggingface.co/unsloth">Qwen3.8-Flash-Next-UD-IQ3_XXS</a> from Unsloth (81.6 GB) on a 16 GB RTX 4080.</em></p>
 
-**Help wanted:** spare Blackwell compute for testing? See [Contributing](CONTRIBUTING.md#other-ways-to-help).
-
-<p align="center">
-  <a href="https://github.com/sponsors/jesdga95"><img src="assets/donate/github.svg" height="44" alt="Sponsor on GitHub"></a>
-  <a href="https://ko-fi.com/jesdga"><img src="assets/donate/kofi.svg" height="44" alt="Support on Ko-fi"></a>
-  <a href="https://paypal.me/jesdga"><img src="assets/donate/paypal.svg" height="44" alt="Donate on PayPal"></a>
-</p>
-
 ## Requirements
 
 - Linux x86-64 with AVX2, or Windows 10 1903+ x64, with an NVIDIA Blackwell GPU (compute capability 12.0) - or, in this fork, an Ada GPU (compute capability 8.9: RTX 4050-4090, L4, L40S, RTX 6000 Ada) ([platforms](docs/platforms.md)).
